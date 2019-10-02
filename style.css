@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: rgb(5,4,19);
+    background: linear-gradient(90deg, rgba(5,4,19,1) 0%, rgba(161,18,39,1) 50%, rgba(5,4,19,1) 100%);
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+img {
+    width: 100px;
+   height: auto;
+}
+
+hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    }
+
+.webshop {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product {
+    border-radius: 5px;
+    box-shadow: 0 5px 35px rgba(0,0,0,.65);
+    padding: 10px;
+}
+
+.a-color {
+    color: white;
+    text-decoration: none;
+}
+
+.webshop__title {
+    position: relative;
+    background-color: #1F1F1F;
+    padding: 20px;
+    box-shadow: 0 5px 35px rgba(0,0,0,.65);
+    border-radius: 10px;
+    color: white;
+}
+
+
+.webshop__content {
+   
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.catalogue {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+
+    .catalogue {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1224px) {
+
+    .catalogue {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+.shopping-cart__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.shopping-cart__item h4 {
+    display: inline-block;
+    margin: 0;
+}
+
+.shopping-cart__item .price {
+    justify-self: end;
+}
+
+
+.cart-button {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #1F1F1F;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease-out;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 5PX;
+}
+
+.cart-button:hover {
+    background: #4b0000;
+   transition: ease 0.5s all;
+    border-radius: 10PX;
+    
+}
+
+a {
+    color: white;
+}
+
+.cart-icon {
+    position: absolute;
+    right: 0;
+    padding-left: 42px;
+    padding-right: 20px;
+    line-height: 32px;
+    /* background: url(\1F6D2) no-repeat left center; */
+    font-size: 18px;
+    color: white;
+    
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    box-shadow: 0 5px 35px rgba(0,0,0,.65);
+}
+
+footer a, footer a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.verijder-alles{
+    float: right;
+     color: white;
+     text-decoration: underline;
+}
+
+

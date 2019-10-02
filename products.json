@@ -1,0 +1,67 @@
+[
+  {
+    "code": 1,
+    "title": "Bullit",
+    "image_url": "https://static-images.jumbo.com/product_images/110320192238_500047BLK-1_720x720.png",
+    "price": 0.75,
+    "description": "Bullit Sugarfree geeft je de energie die je nodig hebt, maar dan zonder suiker"
+  },
+  {
+    "code": 2,
+    "title": "7 Energy Drink",
+    "image_url": "https://static-images.jumbo.com/product_images/160820192203_293799BLK-1_720x720.png",
+    "price": 0.50,
+    "description": "Vitamine B12 draagt bij tot een normaal energieleverend metabolisme.",
+    "type": "Drinken"
+    
+  },
+  {
+    "code": 3,
+    "title": "Monster Energy Drink",
+    "image_url": "https://www.totalwine.com/dynamic/490x/media/sys_master/twmmedia/h08/h6e/8799660605470.png",
+    "price": 1.00,
+    "description": "Tear into a can of the meanest energy drink on the planet, Monster Energy. It`s the ideal combo of the right ingredients in the right proportion to deliver the big bad buzz that only Monster can",
+    "type": "Drinken"
+  },
+  {
+    "code": 4,
+    "title": "5 Hour Energy Berry",
+    "image_url": "http://cdn.shopify.com/s/files/1/1871/6117/products/NEW_ES_Cherry_shadow_1024x1024.png?v=1553722846",
+    "price": 2.50,
+    "description": "The key ingredients in 5-hour ENERGY® are also available in every day foods – like broccoli, avocados, bananas and apples – or already in you",
+    "type": "Drinken"
+  },
+  {
+    "code": 5,
+    "title": "Redbull",
+    "image_url": "https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c1e9.png",
+    "price": 2.50,
+    "description": "Red Bull is much more than a soft drink--it is an energy drink. It was made for moments of increased physical and mental stress and improves endurance, alertness, concentration, and reaction speed",
+    "type": "Drinken"
+  },
+  {
+    "code": 6,
+    "title": "AA",
+    "image_url": "https://static-images.jumbo.com/product_images/180520190229_195485FLS-1_720x720.png",
+    "price": 2.50,
+    "description": "AA Drink Iso-Lemon is een isotone sportdrank en heeft dezelfde osmotische waarde als het lichaamsvocht. AA Drink Iso-Lemon wordt dus sneller opgenomen dan water,  je lichaam wordt zo onmiddellijk voorzien van vocht en mineralen tijdens het sporten. Daarnaast ondersteunen de toegevoegde vitamines het menselijke afweersysteem en de stofwisseling. ",
+    "type": "Drinken"
+  },
+  {
+    "code": 7,
+    "title": "Doritos Sweet chilli pepper tortilla chips",
+    "image_url": "https://www.doritos.ca/sites/doritos.ca/files/255g_Dor_SCH_0.png",
+    "price": 1.20,
+    "description": "AA Drink Iso-Lemon is een isotone sportdrank en heeft dezelfde osmotische waarde als het lichaamsvocht. AA Drink Iso-Lemon wordt dus sneller opgenomen dan water,  je lichaam wordt zo onmiddellijk voorzien van vocht en mineralen tijdens het sporten. Daarnaast ondersteunen de toegevoegde vitamines het menselijke afweersysteem en de stofwisseling. ",
+    "type": "food"
+  },
+  {
+    "code": 8,
+    "title": "Coca Cola",
+    "image_url": "https://img.pngio.com/can-of-coca-cola-1980s-by-fearoftheblackwolf-coca-cola-png-857_931.png",
+    "price": 1.20,
+    "description": "AA Drink Iso-Lemon is een isotone sportdrank en heeft dezelfde osmotische waarde als het lichaamsvocht. AA Drink Iso-Lemon wordt dus sneller opgenomen dan water,  je lichaam wordt zo onmiddellijk voorzien van vocht en mineralen tijdens het sporten. Daarnaast ondersteunen de toegevoegde vitamines het menselijke afweersysteem en de stofwisseling. ",
+    "type": "drinken"
+  }
+  
+]
